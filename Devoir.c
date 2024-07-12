@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "Devoir.h"
 
-void readFile(char* option, int n, char* filename, char* txt){
-	
+void readFile(char* option, int n, char* filename, char* txt)
+{
 	FILE *f = NULL;
 	f=fopen(filename, "r");
 	if(*option == 'n')
